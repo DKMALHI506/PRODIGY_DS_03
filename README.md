@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # Step 1: Load the dataset
-url = r'D:\1-Computer Science in Sindh University\1.2 prodigy intership indian\bank+marketing\bank\bank-full.csv'
+url = r'D:datast.csv'
 df = pd.read_csv(url, delimiter=';')
 
 
